@@ -1,0 +1,5 @@
+# firstly we have to install the qrcode library in Terminal by using --  pip install qrcode
+
+import qrcode as qr
+img = qrcode.make("https://www.youtube.com/@rajatdalal7821")
+img.save("Rajat.jpg")
